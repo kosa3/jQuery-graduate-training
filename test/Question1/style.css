@@ -1,0 +1,10 @@
+#container {
+  text-align: center;
+}
+
+#square {
+  display: block;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
