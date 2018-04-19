@@ -1,0 +1,29 @@
+.hide {
+  display: none;
+}
+.tabContents {
+  display: flex;
+  justify-content: space-around;
+}
+.tab {
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #666;
+  cursor: pointer;
+  display: inline-block;
+  flex: 1;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+  transition: all .3s ease-in-out;
+  vertical-align: middle;
+}
+.tab:hover,
+.tab.is-active {
+  background: #fcf7f1;
+  border: 2px solid #fcbc82;
+  box-sizing: border-box;
+  color: #333;
+}
